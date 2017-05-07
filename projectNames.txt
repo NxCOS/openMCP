@@ -7,7 +7,7 @@ x openTCAdmin ()                             (SCRAPPED)
 - openACP     (Admin Central Portal)
 - openOGCP    (Online Gaming Control Panel)
 - openOGA     (Online Gaming Admin)
-- openGAT     (Gaming Adming Terminal)
+- openGAT     (Gaming Admin Terminal)
 - openRAG     (Remote Admin Gaming)
 
 --------------------------------------

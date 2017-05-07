@@ -1,0 +1,13 @@
+---------- projectNames.txt ----------
+Modified 2017507 1:35AM
+
+x openTCAdmin ()                             (SCRAPPED)
+- openCPAdmin (Control Panel Admin)
+* openMCP     (Multi-Player Control Panel)   (PREFERED)
+- openACP     (Admin Central Portal)
+- openOGCP    (Online Gaming Control Panel)
+- openOGA     (Online Gaming Admin)
+- openGAT     (Gaming Adming Terminal)
+- openRAG     (Remote Admin Gaming)
+
+--------------------------------------

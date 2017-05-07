@@ -1,0 +1,12 @@
+---------- ChangeLog.txt ----------
+
+Version 0.0.0.1 (20170506)
+
+   -  Coding Begins
+
+Version 0.0.0.2 (20170507)
+
+   -  Project name Changed from "openCPAdmin" -> "openMPC"
+   -  Added databse generator file "genDB.py"
+
+-----------------------------------

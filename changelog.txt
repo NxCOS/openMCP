@@ -6,7 +6,16 @@ Version 0.0.0.1 (20170506)
 
 Version 0.0.0.2 (20170507)
 
+   [master]
    -  Project name Changed from "openCPAdmin" -> "openMPC"
    -  Added databse generator file "genDB.py"
+
+Version 0.0.0.3 (20170507)
+
+   [genDB.py]
+   -  Fixed datbase Generation
+
+   [master]
+   -  Added basic sql/pymysql install guide
 
 -----------------------------------

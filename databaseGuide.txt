@@ -1,0 +1,30 @@
+To get the genDB.py to connect correctly, install the follwing:
+ 
+ - Python 3 (version >= 3.5.x)
+   - PyMySQL Library (version >= 0.7.11)
+ - mysql-common
+ - mysql-server
+ - mysql-client 
+
+After 'mysql' packages are installed and root password chosen, run:
+
+mysql -u root -p 
+
+## ** Enter the root password you just created during the install ** ##
+## ** Note: the ';' symbol means end of line, Press Enter ** ##
+
+mysql> CREATE DATABASE openmcp;  ## ** This will create the Database ** ##
+mysql> GRANT ALL PRIVILEGES ON openmcp.* TO '<USERNAME>'@'localhost' IDENTIFIED BY '<PASSWORD>'; 
+
+## ** Put the username you wish to sign in with in <USERNAME> (No <>) and choose a password to login with in,
+      <PASSWORD> (No <>) ** ##
+## ** If you wish to access this database from another system, replace 'localhost' with the IP of the source,
+      system and make sure firewall rules will not block requests. Also make sure to comment out the,
+      "bind-address" line in your system mysql config with a # at the beginning of the line (Common Config File,
+      Location: '/etc/mysql/my.cnf') and restart the service ** ##
+
+mysql> FLUSH PRIVILEGES;  ## ** This will apply our permission changes, no service restart needed ** ##
+
+mysql> exit
+
+## ** You should now be ready to run genDB.py to auto-edit the database to the default configuration ** ##

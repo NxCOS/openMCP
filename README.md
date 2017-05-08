@@ -33,3 +33,11 @@
 ## License:
 
   - WTFPL License v2.0
+
+## Support:
+
+  This is a LONG project and will not be easy. Any donations will assist in adding
+  development time and any other additional costs. Donations will be logged and 
+  documented.
+
+  [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/SMcCoy286/)

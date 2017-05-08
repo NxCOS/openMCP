@@ -18,4 +18,10 @@ Version 0.0.0.3 (20170507)
    [master]
    -  Added basic sql/pymysql install guide
 
+   [saveDBcfg.py]
+   -  Added exec to ask user for databse connect settings and save to file
+
+   [sqlAccess.py]
+   -  Added to test that database connection and config exec are working
+
 -----------------------------------

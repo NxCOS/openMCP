@@ -25,6 +25,6 @@ Version 0.0.0.3 (20170507)
    -  Added to test that database connection and config exec are working
 
    [README.md]
-   -  Update current tasks, goals, and added FAQ
+   -  Update current tasks, goals, & added FAQ
  
 -----------------------------------

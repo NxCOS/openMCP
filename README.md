@@ -16,6 +16,7 @@
 ## Goals/Plans:
 
   [Phase 0x0 (CLI Only)]
+
   - Finish Database construction file
   - Create Database poll function
   - ~~Isolate server and client side files~~

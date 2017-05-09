@@ -1,13 +1,24 @@
 ## Project: Open Multi-Player Control Panel (openMCP)
 
-  - openMCP is a multi-player server management solution
+  - openMCP is a open multi-player server management solution (ex: TCAdmin)
+
+## FAQ:
+
+  - Q: "How many developers are working on this project?"
+    - A: "Just myself and I am not looking for any assistance right now."
+  - Q: "Where can I follow the development progress more easily?"
+    - A: "This project can be found on [Twitter](https://twitter.com/openMCP)"
+  - Q: "Are you going to charge a license fee?"
+    - A: "No. Software should be open and free to all."
+  - Q: "What platforms are you going to support?:
+    - A: "All primary OS's eventually is the goal."
 
 ## Goals/Plans:
 
   [Phase 0x0 (CLI Only)]
   - Finish Database construction file
   - Create Database poll function
-  - Isolate server and client side files
+  - ~~Isolate server and client side files~~
   - Set up tmux integration
   - Prototype service install automation
     - Auto handle PIDs
@@ -18,8 +29,8 @@
 
 ## Current Task:
 
-  - Finish coding of Databse construction file.
-  - NOTE: At this time, only Linux tested
+  - [x] Finish coding of Databse construction file. (Status: satisfactory)
+  - [ ] Begin development of Game Srv Install/Config Automation (Status: Proof of concept)
 
 ## Requirements (packages):
 
